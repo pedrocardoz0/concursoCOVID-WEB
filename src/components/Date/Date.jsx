@@ -6,8 +6,8 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Enroll = () => {
-  const { enroll } = useContext(PortfolioContext);
+const Date = () => {
+  const { date } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,12 +26,12 @@ const Enroll = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Participe" />
-          {enroll.map((project) => {
+          <Title title="Calendário" />
+          {date.map((project) => {
             const { title, info, info2, info3, url, repo, img, id } = project;
 
             return (
-              <Row key={id}>
+              <Row>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -71,4 +71,4 @@ const Enroll = () => {
   );
 };
 
-export default Enroll;
+export default Date;
