@@ -22,11 +22,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Concurso Sars-CoV-2`,
+        short_name: `App Concurso`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#02aab0`,
+        background_color: `#EF7917`,
+        theme_color: `#EF7917`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },

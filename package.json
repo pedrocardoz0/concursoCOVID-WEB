@@ -2,7 +2,7 @@
   "homepage": "http://pedrocardoz0.github.io/concursocovid19",
   "name": "covid19",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Website made by Pedro Cardozo",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -56,10 +56,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/pedrocardoz0/concursoCOVID-WEB/"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/pedrocardoz0/concursoCOVID-WEB/issues"
   },
   "husky": {
     "hooks": {
