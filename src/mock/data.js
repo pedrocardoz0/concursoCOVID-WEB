@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'Concurso_Software_COVID19.docx', // Edital aqui
+  resume: './Concurso_Software_COVID19.docx', // Edital aqui
 };
 
 // PROJECTS DATA
