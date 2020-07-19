@@ -125,6 +125,8 @@ export const dateData = [
 
 // MOREINFO DATA
 
+
+
 export const moreInfoData = [
   {
     id: nanoid(),
@@ -158,6 +160,27 @@ export const moreInfoData = [
     url: false,
     text: false,
     repo: '', // if no repo, the button will not show up
+  },
+];
+
+// SUPORT DATA
+
+export const suportData = [
+  {
+    id: nanoid(),
+    img: 'lifelogo.jpg',
+  },
+  {
+    id: nanoid(),
+    img: 'logosec.jpg',
+  },
+  {
+    id: nanoid(),
+    img: 'asserti.png',
+  },
+  {
+    id: nanoid(),
+    img: 'unimed.png',
   },
 ];
 
