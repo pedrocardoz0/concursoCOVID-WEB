@@ -28,7 +28,7 @@ const Enroll = () => {
         <div className="project-wrapper">
           <Title title="Participe" />
           {enroll.map((project) => {
-            const { title, info, info2, info3, url, repo, img, id } = project;
+            const { title, info, info2, info3, url, repo, nameBut, img, id } = project;
 
             return (
               <Row key={id}>
@@ -57,7 +57,7 @@ const Enroll = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Source Code
+                          { nameBut || "Registrar" }
                         </a>
                       )}
                     </div>
