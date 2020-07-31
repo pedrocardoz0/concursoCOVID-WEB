@@ -2,15 +2,15 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Sars-CoV-2', // e.g: 'Name | Developer'
+  title: 'Hackathon pela Vida', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'Concurso ',
-  name: 'Sars-CoV-2',
+  title: 'Hackathon ',
+  name: 'pela Vida',
   subtitle: 'Vamos ajudar a nossa cidade',
   cta: 'Saiba Mais',
 };
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Devido ao atual contexto epidemiológico em virtude do COVID-19, a Life, em parceria com a ASSERTI, abre este concurso com a finalidade de atender a necessidade de uma plataforma digital para o monitoramento dos casos suspeitos ou confirmados na Rede Municipal de Atenção à Saúde no município de Marília.',
   paragraphTwo: 'Para atingir tal finalidade o concurso foi elaborado para os estudantes da área de T.I. Os alunos terão a oportunidade de concorrer aos prêmios oferecidos pelos apoiadores e ao mesmo tempo auxiliar a Rede Municipal de Atenção à Saúde no município de Marília no atual contexto.',
   paragraphThree: 'Os prêmios serão concedidos pela Life e ASSERTI, para mais informações consulte o edital abaixo.',
-  resume: './Concurso_Software_COVID19.docx', // Edital aqui
+  resume: 'Concurso_Software_COVID19_L2.docx', // Edital aqui
 };
 
 // PROJECTS DATA
@@ -69,7 +69,7 @@ export const enrollData = [
     repo: 'https://docs.google.com/forms/d/1nAP7B3xjyMhJYOJxL7Zru5R7MUFyfwiiUehm_xQKhn0/', // if no repo, the button will not show up
   },
   {
-    title: 'Envio 🔎',
+    title: 'Envio ',
     info: 'Fique atento as datas, no período de envio das resoluções será aberto um Forms para enviar o link do website ou do repositório.',
     info2: 'Para ter mais informações acesse o edital no topo do website.',
     info3: 'Logo logo ...',
@@ -80,7 +80,7 @@ export const enrollData = [
     id: nanoid(),
     img: 'computer.jpg',
     title: 'Vencedores 🎇',
-    info: 'Os vencedores serão premiados com uma valor total estimado de R$3.200,00.',
+    info: 'Os vencedores serão premiados com uma valor total estimado de R$12.400,00.',
     info2: 'A equipe vencedora também ganhará um certificado de honra ao mérito pela ASSERTI.',
     info3: 'Seja um destaque para a sua cidade, PARTICIPE !',
     url: '',
@@ -91,9 +91,9 @@ export const enrollData = [
     id: nanoid(),
     img: 'student.jpg',
     title: 'Prêmios 🏆',
-    info: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
-    info2: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
-    info3: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
+    info: 'Será premiada a equipe do software que tiver a maior pontuação pelos jurados.',
+    info2: 'Prêmio de R$ 2.000,00 para a equipe (patrocínio da empresa Life), Certificado de honra do mérito concedido pela ASSERTI e R$ 800,00 concedido pela ACIM.',
+    info3: 'Assim como será distribuido de R$ 9.600,00 pela UNIMED, para desenvolvimento e implantação do sistema, divididos em 4 parcelas de R$ 2400,00 reais cada.',
     url: '',
     nameBut: '',
     repo: '', // if no repo, the button will not show up
@@ -106,9 +106,9 @@ export const dateData = [
     id: nanoid(),
     img: 'doc.jpg',
     title: 'Quando Irá Acontecer ? 📆',
-    info: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
-    info2: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
-    info3: '',
+    info: '3 a 15 de agosto – Período de inscrições. O aluno coordenador deverá preencher o Termo de Adesão com os dados dos alunos componentes de sua equipe, que deverá ter até 4 membros.',
+    info2: '17 de agosto – Live pelo Zoom explicando a iniciativa do Concurso para os participantes e Sessão de Perguntas e Respostas da Secretaria Municipal de Saúde',
+    info3: '2 a 4 de setembro – Entrega do software. O aluno coordenador deverá informar no formulário de inscrição o link para acesso ao sistema com dados de login e o link para os códigos fontes na plataforma Github.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -116,8 +116,8 @@ export const dateData = [
     id: nanoid(),
     img: 'computer.jpg',
     title: 'Resultado do Concurso 💯',
-    info: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
-    info2: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
+    info: 'A equipe vencedora será divulgada aqui no website',
+    info2: '7 de setembro – Divulgação do resultado final da equipe vencedora no site do concurso.',
     info3: '',
     url: '',
     repo: '', // if no repo, the button will not show up
@@ -146,7 +146,7 @@ export const moreInfoData = [
     info: 'Para mais informações sobre o concurso consulte o edital, qualquer dúvida entre em contato pelo email.',
     info2: 'Os critérios de avaliação estão completamente ligados as necessides estabelecidas pela Secretária de Saúde Municipal.',
     info3: '',
-    url: 'Concurso_Software_COVID19.docx',
+    url: 'Concurso_Software_COVID19_L2.docx',
     text: 'Baixar',
     repo: '', // if no repo, the button will not show up
   },
@@ -183,24 +183,25 @@ export const suportData = [
   },
   {
     id: nanoid(),
+    img: 'unimed.png',
+  },
+  {
+    id: nanoid(),
     img: 'logosec.jpg',
   },
   {
     id: nanoid(),
     img: 'asserti.png',
   },
-  {
-    id: nanoid(),
-    img: 'unimed.png',
-  },
+  
 ];
 
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Quer nos ajudar? Entre em contato conosco hackathonpelavida@gmail.com ',
   btn: '',
-  email: 'someting@gmail.com',
+  email: 'hackathonpelavida@gmail.com',
 };
 
 // FOOTER DATA
