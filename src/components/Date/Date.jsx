@@ -28,7 +28,7 @@ const Date = () => {
         <div className="project-wrapper">
           <Title title="Calendário" />
           {date.map((project) => {
-            const { title, info, info2, info3, url, repo, img, id } = project;
+            const { title, info, info2, info3, info4, info5, url, repo, img, id } = project;
 
             return (
               <Row>
@@ -48,6 +48,9 @@ const Date = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                         <p className="mb-4">{info3 || ''}</p>
+                        <p className="mb-4">{info4 || ''}</p>
+                        <p className="mb-4">{info5 || ''}</p>
+
                       </div>
 
                       {repo && (

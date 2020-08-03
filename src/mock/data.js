@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'logo_life.png',
-  paragraphOne: 'Devido ao atual contexto epidemiológico em virtude do COVID-19, a Life, em parceria com a ASSERTI, abre este concurso com a finalidade de atender a necessidade de uma plataforma digital para o monitoramento dos casos suspeitos ou confirmados na Rede Municipal de Atenção à Saúde no município de Marília.',
+  paragraphOne: 'Devido ao atual contexto epidemiológico em virtude da COVID-19, a Life, em parceria com a ASSERTI, Unimed, Covidas, abre este concurso com a finalidade de atender a necessidade de uma plataforma digital para o monitoramento dos casos suspeitos ou confirmados na Rede Municipal de Atenção à Saúde no município de Marília.',
   paragraphTwo: 'Para atingir tal finalidade o concurso foi elaborado para os estudantes da área de T.I. Os alunos terão a oportunidade de concorrer aos prêmios oferecidos pelos apoiadores e ao mesmo tempo auxiliar a Rede Municipal de Atenção à Saúde no município de Marília no atual contexto.',
   paragraphThree: 'Os prêmios serão concedidos pela Life e ASSERTI, para mais informações consulte o edital abaixo.',
   resume: 'Concurso_Software_COVID19_L2.docx', // Edital aqui
@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'doc.jpg',
-    title: 'Auxiliar a Rede Municipal de Assistência à Saúde em suas necessidades.',
+    title: 'Auxiliar a Rede Municipal de Saúde em suas necessidades.',
     info: 'O cenário da pandemia afetou diversas áreas e principalmente a Rede de Assistência à Saúde. Muitas pessoas vão as unidades de saúde todos os dias para serem atendidas. Cada munícipe atendido em uma unidade de saúde tem seu acolhimento e avaliação clínica e procedimentos registrados em prontuário eletrônico por meio do Sistema e-SUS.',
     info2: 'A Life tem como proposta auxiliar o monitoramento dos usuários SUS e seus comunicantes por meio do desenvolvimento de uma ferramenta que otimize o registro, classificação, memória e extração destas informações, sepossibilitando a articulação entre estudantes da área de TI e os profissionais da área da saúde.',
     url: '',
@@ -70,10 +70,9 @@ export const enrollData = [
   },
   {
     title: 'Envio ',
-    info: 'Fique atento as datas, no período de envio das resoluções será aberto um Forms para enviar o link do website ou do repositório.',
+    info: 'Fique atento as datas, o formulário será fechado no dia 4 de Setembro, lembre de enviar o link do repositório ou link da plataforma (Com email e senha)',
     info2: 'Para ter mais informações acesse o edital no topo do website.',
-    info3: 'Logo logo ...',
-    nameBut: 'Enviar resolução',
+    nameBut: 'Editar Formulário',
     repo: 'https://docs.google.com/forms/d/1nAP7B3xjyMhJYOJxL7Zru5R7MUFyfwiiUehm_xQKhn0/',
   },
   {
@@ -106,9 +105,11 @@ export const dateData = [
     id: nanoid(),
     img: 'doc.jpg',
     title: 'Quando Irá Acontecer ? 📆',
-    info: '3 a 15 de agosto – Período de inscrições. O aluno coordenador deverá preencher o Termo de Adesão com os dados dos alunos componentes de sua equipe, que deverá ter até 4 membros.',
-    info2: '17 de agosto – Live pelo Zoom explicando a iniciativa do Concurso para os participantes e Sessão de Perguntas e Respostas da Secretaria Municipal de Saúde',
-    info3: '2 a 4 de setembro – Entrega do software. O aluno coordenador deverá informar no formulário de inscrição o link para acesso ao sistema com dados de login e o link para os códigos fontes na plataforma Github.',
+    info: '• 3 a 15 de agosto – Período de inscrições. O aluno coordenador deverá preencher o Termo de Adesão com os dados dos alunos componentes de sua equipe, que deverá ter até 4 membros.',
+    info2: '• 17 de agosto – Live pelo Zoom explicando a iniciativa do Concurso para os participantes e Sessão de Perguntas e Respostas da Secretaria Municipal de Saúde',
+    info3: '•	31 de agosto – Live com mentoria nas áreas da Saúde, Tecnologia e Inovação.',
+    info4: '•	2 a 4 de setembro – Entrega do software. O aluno coordenador deverá informar no formulário de inscrição o link para acesso ao sistema com dados de login e o link para os códigos fontes na plataforma Github.',
+    info5: '•	7 de setembro – Divulgação do resultado final do vencedor no site do concurso.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
