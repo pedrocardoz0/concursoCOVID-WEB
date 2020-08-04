@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'logo_life.png',
-  paragraphOne: 'Devido ao atual contexto epidemiológico em virtude da COVID-19, a Life, em parceria com a ASSERTI, Unimed, Covidas, abre este concurso com a finalidade de atender a necessidade de uma plataforma digital para o monitoramento dos casos suspeitos ou confirmados na Rede Municipal de Atenção à Saúde no município de Marília.',
+  paragraphOne: 'Devido ao atual contexto epidemiológico em virtude da COVID-19, a Life, em parceria com a ASSERTI, Unimed Marília, Covidas, abre este concurso com a finalidade de atender a necessidade de uma plataforma digital para o monitoramento dos casos suspeitos ou confirmados na Rede Municipal de Atenção à Saúde no município de Marília.',
   paragraphTwo: 'Para atingir tal finalidade o concurso foi elaborado para os estudantes da área de T.I. Os alunos terão a oportunidade de concorrer aos prêmios oferecidos pelos apoiadores e ao mesmo tempo auxiliar a Rede Municipal de Atenção à Saúde no município de Marília no atual contexto.',
   paragraphThree: 'Os prêmios serão concedidos pela Life e ASSERTI, para mais informações consulte o edital abaixo.',
   resume: 'Concurso_Software_COVID19_L2.docx', // Edital aqui
@@ -92,7 +92,7 @@ export const enrollData = [
     title: 'Prêmios 🏆',
     info: 'Será premiada a equipe do software que tiver a maior pontuação pelos jurados.',
     info2: 'Prêmio de R$ 2.000,00 para a equipe (patrocínio da empresa Life), Certificado de honra do mérito concedido pela ASSERTI e R$ 800,00 concedido pela ACIM.',
-    info3: 'Assim como será distribuido de R$ 9.600,00 pela UNIMED, para desenvolvimento e implantação do sistema, divididos em 4 parcelas de R$ 2400,00 reais cada.',
+    info3: 'Assim como será distribuido de R$ 9.600,00 pela UNIMED MARÍLIA, para desenvolvimento e implantação do sistema, divididos em 4 parcelas de R$ 2400,00 reais cada.',
     url: '',
     nameBut: '',
     repo: '', // if no repo, the button will not show up
