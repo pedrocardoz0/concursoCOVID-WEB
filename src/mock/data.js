@@ -194,6 +194,14 @@ export const suportData = [
     id: nanoid(),
     img: 'asserti.png',
   },
+  {
+    id: nanoid(),
+    img: 'acim.png',
+  },
+  {
+    id: nanoid(),
+    img: 'logo_covidas.png',
+  },
   
 ];
 
