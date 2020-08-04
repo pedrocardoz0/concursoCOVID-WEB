@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'logo_life.png',
   paragraphOne: 'Devido ao atual contexto epidemiológico em virtude da COVID-19, a Life, em parceria com a ASSERTI, Unimed Marília, Covidas, abre este concurso com a finalidade de atender a necessidade de uma plataforma digital para o monitoramento dos casos suspeitos ou confirmados na Rede Municipal de Atenção à Saúde no município de Marília.',
   paragraphTwo: 'Para atingir tal finalidade o concurso foi elaborado para os estudantes da área de T.I. Os alunos terão a oportunidade de concorrer aos prêmios oferecidos pelos apoiadores e ao mesmo tempo auxiliar a Rede Municipal de Atenção à Saúde no município de Marília no atual contexto.',
-  paragraphThree: 'Os prêmios serão concedidos pela Life e ASSERTI, para mais informações consulte o edital abaixo.',
+  paragraphThree: 'Os prêmios serão concedidos pela Life, ASSERTI e UNIMED MARÍLIA, para mais informações consulte o edital abaixo.',
   resume: 'Concurso_Software_COVID19_L2.docx', // Edital aqui
 };
 
