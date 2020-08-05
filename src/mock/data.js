@@ -60,21 +60,21 @@ export const enrollData = [
   {
     id: nanoid(),
     img: 'doc.jpg',
-    title: 'Público Alvo 🔎',
-    info: 'Estudantes regularmente matriculados em curso de Tecnologia da Informação.',
+    title: 'Público Alvo e Inscrição 🔎',
+    info: 'Estudantes regularmente matriculados em curso técnicos ou de graduação em Tecnologia da Informação.',
     info2: 'Para mais informações, acesse o edital no topo do website.',
-    info3: 'Para registrar ou editar a sua equipe acesse:',
+    info3: '',
     url: '',
-    nameBut: 'Acessar Formulário',
+    nameBut: 'Inscreva-se',
     repo: 'https://forms.gle/dKG778SxAPzcZbY26', // if no repo, the button will not show up
   },
-  // {
-  //   title: 'Envio ',
-  //   info: 'Fique atento as datas, o formulário será fechado no dia 4 de Setembro, lembre de enviar o link do repositório ou link da plataforma (Com email e senha)',
-  //   info2: 'Para ter mais informações acesse o edital no topo do website.',
-  //   nameBut: 'Editar Formulário',
-  //   repo: 'https://forms.gle/dKG778SxAPzcZbY26',
-  // },
+  {
+    title: 'Envio do Projeto',
+    info: 'Após a finalização do projeto, envie o link do repositório, o link da plataforma com os dados de login (usuário e senha)',
+    info2: 'Fique atento as datas, o formulário será fechado no dia 4 de setembro.',
+    nameBut: 'Clique para enviar os dados do projeto',
+    repo: 'https://forms.gle/dKG778SxAPzcZbY26',
+  },
   {
     id: nanoid(),
     img: 'computer.jpg',
