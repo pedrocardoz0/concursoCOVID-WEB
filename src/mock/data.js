@@ -66,14 +66,14 @@ export const enrollData = [
     info3: 'Para registrar a sua equipe acesse:',
     url: '',
     nameBut: '',
-    repo: 'https://docs.google.com/forms/d/1nAP7B3xjyMhJYOJxL7Zru5R7MUFyfwiiUehm_xQKhn0/', // if no repo, the button will not show up
+    repo: 'https://forms.gle/dKG778SxAPzcZbY26', // if no repo, the button will not show up
   },
   {
     title: 'Envio ',
     info: 'Fique atento as datas, o formulário será fechado no dia 4 de Setembro, lembre de enviar o link do repositório ou link da plataforma (Com email e senha)',
     info2: 'Para ter mais informações acesse o edital no topo do website.',
     nameBut: 'Editar Formulário',
-    repo: 'https://docs.google.com/forms/d/1nAP7B3xjyMhJYOJxL7Zru5R7MUFyfwiiUehm_xQKhn0/',
+    repo: 'https://forms.gle/dKG778SxAPzcZbY26',
   },
   {
     id: nanoid(),
