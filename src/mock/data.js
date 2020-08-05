@@ -196,7 +196,7 @@ export const suportData = [
   },
   {
     id: nanoid(),
-    img: 'acim.png',
+    img: 'acimVerde.PNG',
   },
   {
     id: nanoid(),
