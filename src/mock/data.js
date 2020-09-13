@@ -127,7 +127,7 @@ export const dateData = [
     id: nanoid(),
     img: 'student.jpg',
     title: 'Equipe Vencedora 🎉',
-    info: 'Logo logo ... 🙌',
+    info: 'A equipe que melhor atende aos requisitos da Secretaria Municipal da Saúde é a BSI CovidManager. Liderada por Natália da Silva e as participações de Luiz Paulo Vieira, Daniel Moya da Silva e Luiz Henrique Murakami apresentaram trabalho bastante consistente, em estágio já preparado para adaptação às necessidades de Monitoramento de Contatos.',
     info2: '',
     info3: '',
     url: '',
